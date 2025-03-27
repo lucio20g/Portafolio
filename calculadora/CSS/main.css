@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    min-height: 100vh; /*Tamaño de pantalla (ViewPort) 1vh corresponde a 1% de la pantalla*/
+    background-color: #090c31;
+    /*explicación ejemplo tablero de ajedrez*/
+    display: grid; /*conviertes el tablero en una cuadrícula, con filas y columnas perfectamente alineadas*/
+    place-items: center; /*colocar la caja justo en el centro de una celda específica en el tablero. No importa en cuál celda pongas la caja, siempre estará en el centro de esa celda, tanto horizontalmente como verticalmente.*/
+}
+
+.calculadora {
+    background-color: #181c56;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 90vw; 
+    max-width: 400px;
+    height: 75vh;
+    max-height: 700px;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    gap:.5rem;
+}
+
+.pantalla {
+    grid-column: 1 / -1;
+    background-color: white;
+    padding: 1rem;
+    font-size: 2rem;
+    color: black;
+    text-align: right;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+.btn{
+    background-color: rgb(61, 73, 128);
+    border: 0;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15%;
+    cursor: pointer ;
+    font-size: 1.5rem;
+}
+
+.btn:hover{
+    background-color: #090c31;
+}
+
+#cero{
+    grid-column: span 3;
+    border-radius: 10%;
+}
+
+#igual{
+    background-color: rgb(180, 8, 8);
+}
+
+#igual:hover{
+    background-color: rgb(71, 1, 1);
+}
+
+@media (max-width: 500px) {
+    .calculadora {
+        width: 100vw;
+        height: auto; 
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 800px) and (min-width: 500px) {
+    .calculadora {
+        grid-template-columns: repeat(4, 1fr); 
+        width: 100vw;
+        height: auto;
+        padding: 1rem;
+    }
+}
