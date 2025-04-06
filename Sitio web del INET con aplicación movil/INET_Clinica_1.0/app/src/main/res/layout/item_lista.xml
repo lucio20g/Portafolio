@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="@drawable/style_textview">
+
+        <TextView
+            android:id="@+id/Text_Id_Reporte"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="@color/azul_oscuro"
+            android:gravity="center"
+            android:fontFamily="@font/archivo_medium"
+
+            />
+
+        <TextView
+            android:id="@+id/Text_Id_Internado"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="@color/azul_oscuro"
+            android:gravity="center"
+            android:fontFamily="@font/archivo_medium"
+
+            />
+
+        <TextView
+            android:id="@+id/Text_Origen"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="@color/azul_oscuro"
+            android:gravity="center"
+            android:fontFamily="@font/archivo_medium"
+
+            />
+
+        <TextView
+            android:id="@+id/Text_fecha"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="@color/azul_oscuro"
+            android:gravity="center"
+            android:fontFamily="@font/archivo_medium"
+
+            />
+</LinearLayout>

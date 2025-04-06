@@ -1,0 +1,204 @@
+/*
+Paleta de colores
+#F6F1F1
+#19A7CE
+#146C94
+#000000
+*/
+body{
+    background-image: url('../img/fondo2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav{
+    display: flex;
+    width: 34vh;
+    height: 50vh;
+    background-color: #000000;
+    border: 2px solid #F6F1F1;
+    border-radius: 15px;
+}
+
+.content{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 50vh;
+    height: 70vh;
+    margin-top: -50vh;
+    background-color: rgb(0, 0, 0, 0.8);
+    border: 2px solid #F6F1F1;
+    border-radius: 15px;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+.title{
+    color: #F6F1F1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    border-bottom: 2px solid #F6F1F1;
+}
+
+.welcome{
+    color: #F6F1F1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+}
+
+.txt{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #F6F1F1;
+    font-size: 18px;
+}
+
+.txtsalir{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #F6F1F1;
+    font-size: 18px;
+    border: 2px solid red;
+    background-color: red;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.txt:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    color: #146C94;
+}
+
+.txtsalir:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+
+/*CSS altaUsuarios, altaZonas, pacientes*/
+
+.content-zonas{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 50vh;
+    height: 70vh;
+    margin-top: -50vh;
+    background-color: rgb(0, 0, 0, 0.8);
+    border: 2px solid #F6F1F1;
+    border-radius: 15px;
+}
+
+.content-pacientes{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 50vh;
+    height: 115vh;
+    margin-top: -50vh;
+    background-color: rgb(0, 0, 0, 0.8);
+    border: 2px solid #F6F1F1;
+    border-radius: 15px;
+}
+
+.content-verPaciente{
+    width: 120vh;
+    height: 70vh;
+    background-color: rgb(0, 0, 0, 0.8);
+    border: 2px solid #F6F1F1;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: -50vh;
+}
+
+.content-verEnfermeros{
+    width: 80vh;
+    height: 60vh;
+    background-color: rgb(0, 0, 0, 0.8);
+    border: 2px solid #F6F1F1;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: -50vh;
+}
+
+.content-enfermeros{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 50vh;
+    height: 90vh;
+    margin-top: -50vh;
+    background-color: rgb(0, 0, 0, 0.8);
+    border: 2px solid #F6F1F1;
+    border-radius: 15px;
+}
+
+.content-usuarios{
+    width: 60vh;
+    height: 70vh;
+    background-color: rgb(0, 0, 0, 0.8);
+    border-radius: 15px;
+    border: #F6F1F1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #F6F1F1;
+    margin: auto;
+    margin-top: -50vh;
+}
+
+th{
+    text-align: center;
+    border-bottom: 2px solid #F6F1F1;
+}
+
+table{
+    margin: auto;
+    border: 2px solid #F6F1F1;
+    border-radius: 15px;
+    color: #F6F1F1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.titleUsu{
+    color: #F6F1F1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    border-bottom: 2px solid #F6F1F1;
+    text-align: center;
+}
+
+input.txt{
+    border-radius: 15px;
+    width: 250px;
+    height: 40px;
+    background-color: rgb(246, 241, 241, 0.8);
+    border: 2px solid rgb(246, 241, 241, 0.8);
+    margin-top: 20px;
+}
+
+.btn{
+    width: 125px;
+    height: 40px;
+    background-color: rgb(246, 241, 241, 0.8);
+    border: rgb(246, 241, 241, 0.8);
+    border-radius: 15px;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.btn:active{
+    transform: scale(0.9);
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../estilos/styleWeb.css">
+    <title>Clínica</title>
+</head>
+<body>
+    <nav class="nav">
+        <ul>
+            <li><a href="admin.html"><h2 class="title">Clínica Online</h2></a></li>
+            <li><a href="altaUsuarios.html"><p class="txt">Usuarios</p></a></li>
+            <li><a href="altaZonas.html"><p class="txt">Asignar zona</p></a></li>
+            <li><a href="pacientes.html"><p class="txt">Pacientes</p></a></li>
+            <li><a href="enfermeros.html"><p class="txt">Enfermeros</p></a></li>
+            <li><a href="../index.html"><p class="txtsalir">Salir</p></a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <h1 class="titleUsu">Agregar Usuarios</h1>
+        <ul>
+            <form action="../php/registrar_usuario.php" method="post">
+                <li><input type="text" name="Usuario" id="crearUsuario" class="txt" placeholder="Ingrese usuario" maxlength="10"></li>
+                <li><input type="password" name="Contraseña" id="crearContraseña" class="txt" placeholder="Ingrese contraseña" maxlength="10"></li>
+                <li><input type="password" name="repitaContraseña" id="repitaContraseñas" class="txt" placeholder="Repita la contraseña" maxlength="10"></li>
+                <li><input type="text" name="rol" id="crearRol" class="txt" placeholder="Administrador o Usuario" maxlength="10"></li>
+                <li><input type="submit" value="Agregar" class="btn">
+                    <a href="../php/verUsuarios.php"><input type="button" value="Ver Usuarios" class="btn"></a></li>
+            </form>
+        </ul>
+    </div>
+</body>
+</html>

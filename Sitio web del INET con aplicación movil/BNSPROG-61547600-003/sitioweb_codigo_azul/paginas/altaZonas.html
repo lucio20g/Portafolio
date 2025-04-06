@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../estilos/styleWeb.css">
+    <title>Clínica</title>
+</head>
+<body>
+    <nav class="nav">
+        <ul>
+            <li><a href="admin.html"><h2 class="title">Clínica Online</h2></a></li>
+            <li><a href="altaUsuarios.html"><p class="txt">Usuarios</p></a></li>
+            <li><a href="altaZonas.html"><p class="txt">Asignar zona</p></a></li>
+            <li><a href="pacientes.html"><p class="txt">Pacientes</p></a></li>
+            <li><a href="enfermeros.html"><p class="txt">Enfermeros</p></a></li>
+            <li><a href="../index.html"><p class="txtsalir">Salir</p></a></li>
+        </ul>
+    </nav>
+
+    <div class="content-zonas">
+        <h1 class="titleUsu">Agregar Areas/Zonas</h1>
+        <form action="../php/agregar_zona.php" method="post">
+            <ul>
+                <li><input type="text" name="Area" id="asigZona" class="txt" placeholder="Ingrese el area/zona" maxlength="25"></li>
+                <li><input type="text" name="Paciente" id="asigPaciente" class="txt" placeholder="Ingrese el nombre de paciente" maxlength="25"></li>
+                <li><input type="text" name="Doctor" id="asigDoctor" class="txt" placeholder="Ingrese el doctor a cargo" maxlength="25"></li>
+                <li><input type="text" name="Llamado" id="tipoLlamado" placeholder="Ingrese el tipo de llamado" class="txt" maxlength="25"></li>
+                <li><input type="submit" value="Agregar" class="btn">
+                    <a href="../php/zonas.php"><input type="button" value="Ver Areas/Zonas" class="btn"></a></li>
+            </ul>
+        </form>
+    </div>
+</body>
+</html>

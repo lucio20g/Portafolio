@@ -1,0 +1,3 @@
+En el 'Main activity' y en el 'Llamadas java' cambiar la url por la del servidor que se use. 
+
+El apk contiene la carpeta

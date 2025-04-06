@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">INET Clinica</string>
+    <string name="boton_login">INICIAR SESIÓN</string>
+    <string name="boton_logout">CERRAR SESIÓN</string>
+    <string name="boton_actualizar">REFRESCAR</string>
+    <string name="img_user">Imagen de logo de usuario</string>
+    <string name="TextEmail">Email</string>
+    <string name="TextContraseña">Contraseña</string>
+    <string name="titulo_llamadas">LLAMADAS</string>
+    <string name="txtId_Reporte">ID REPORTE</string>
+    <string name="txtId_Internado">ID INTERNADO</string>
+    <string name="txtOrigen">ORIGEN</string>
+    <string name="txtFecha">FECHA</string>
+
+</resources>

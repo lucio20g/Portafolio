@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/styleWeb.css">
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+    <title>Clínica</title>
+</head>
+<body>
+    <nav class="nav">
+        <ul>
+            <li><a href="admin.html"><h2 class="title">Clínica Online</h2></a></li>
+            <li><a href="altaUsuarios.html"><p class="txt">Usuarios</p></a></li>
+            <li><a href="altaZonas.html"><p class="txt">Asignar zona</p></a></li>
+            <li><a href="pacientes.html"><p class="txt">Pacientes</p></a></li>
+            <li><a href="enfermeros.html"><p class="txt">Enfermeros</p></a></li>
+            <li><a href="../index.html"><p class="txtsalir">Salir</p></a></li>
+        </ul>
+    </nav>
+
+    <div class="content-pacientes">
+        <h1 class="titleUsu">Ficha de paciente</h1>
+        <form action="../php/agregar_paciente.php" method="post">
+            <ul>
+                <li><input type="text" name="DNI" pattern="[0-9]*" oninput="this.value = this.value.replace(/[^0-9]/g, '');"
+                    placeholder="Ingrese el DNI" class="txt"></li>
+                    <li><input type="text" name="Nombre" placeholder="Ingrese el nombre" class="txt" maxlength="25"></li>
+                    <li><input type="text" name="Apellido" placeholder="Ingrese el apellido" class="txt" maxlength="25"></li>
+                    <li><input type="text" name="Localidad" placeholder="Ingrese la localidad" class="txt" maxlength="25"></li>
+                    <li><input type="text" name="Obra_Social" placeholder="Ingrese la obra social" class="txt" maxlength="25"></li>
+                    <li><input type="number" name="Numero_Obra" maxlength="25" pattern="[0-9]*" oninput="this.value = this.value.replace(/[^0-9]/g, '');"
+                        placeholder="Ingrese el numero" class="txt"></li>
+                    <li><input type="text" name="Ubicacion" placeholder="Ingrese la zona a asignar" class="txt" maxlength="25"></li>
+                    <li><input type="text" name="Enfermero" placeholder="Ingrese al enfermero a cargo" class="txt" maxlength="25"></li>                    
+                <li><input type="submit" value="Agregar" class="btn">
+                    <a href="../php/verPacientes.php"><input type="button" value="Ver pacientes" class="btn"></a></li>
+            </ul>
+        </form>
+    </div>
+</body>
+</html>

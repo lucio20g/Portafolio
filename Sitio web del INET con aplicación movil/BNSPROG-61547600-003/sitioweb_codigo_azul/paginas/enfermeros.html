@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/styleWeb.css">
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+    <title>Clínica</title>
+</head>
+<body>
+    <nav class="nav">
+        <ul>
+            <li><a href="admin.html"><h2 class="title">Clínica Online</h2></a></li>
+            <li><a href="altaUsuarios.html"><p class="txt">Usuarios</p></a></li>
+            <li><a href="altaZonas.html"><p class="txt">Asignar zona</p></a></li>
+            <li><a href="pacientes.html"><p class="txt">Pacientes</p></a></li>
+            <li><a href="enfermeros.html"><p class="txt">Enfermeros</p></a></li>
+            <li><a href="../index.html"><p class="txtsalir">Salir</p></a></li>
+        </ul>
+    </nav>
+
+    <div class="content-enfermeros">
+        <h1 class="titleUsu">Agregar Enfermeros</h1>
+        <form action="../php/agregar_enfermero.php" method="post">
+            <ul>
+                <li><input type="number" maxlength="8" name="DNI" pattern="[0-9]*" oninput="this.value = this.value.replace(/[^0-9]/g, '');"
+                    placeholder="Ingrese el DNI" class="txt"></li>
+                <li><input type="text" name="Nombre" id="name" placeholder="Ingrese el nombre" class="txt" maxlength="25"></li>
+                <li><input type="text" name="Apellido" id="surname" placeholder="Ingrese el apellido" class="txt" maxlength="25"></li>
+                <li><input type="text" name="Ocupacion" id="ocupacion" placeholder="Ingrese su ocupacion" class="txt" maxlength="25"></li>
+                <li><input type="text" name="Localidad" id="localidad" placeholder="Ingrese la localidad" class="txt" maxlength="25"></li>
+                <li><input type="text" name="Genero" id="sexo" placeholder="Ingrese su genero" class="txt" maxlength="1"></li>
+                <li><input type="submit" value="Agregar" class="btn">
+                    <a href="../php/verEnfermeros.php"><input type="button" value="Ver enfermeros" class="btn"></a></li>
+            </ul>
+        </form>
+    </div>
+</body>
+</html>

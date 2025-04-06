@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Llamadas"
+    android:background="@color/celeste"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/archivo_medium"
+        android:textAlignment="center"
+        android:text="@string/titulo_llamadas"
+        android:textColor="@color/celeste"
+        android:background="@color/azul_oscuro"
+        android:textSize="60sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/ListaLlamadas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/style_bordes"
+            android:layout_below="@id/textView"
+            android:layout_above="@id/btn_cerrar_sesion"
+            android:layout_marginTop="20sp"
+            android:layout_marginHorizontal="10sp"
+            >
+        </androidx.recyclerview.widget.RecyclerView>
+
+    <ImageButton
+        android:id="@+id/btn_cerrar_sesion"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/boton_logout"
+        app:srcCompat="@drawable/logout_logo" />
+
+    <ImageButton
+        android:id="@+id/btn_actualizar"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/boton_actualizar"
+        app:srcCompat="@drawable/refresh" />
+
+</RelativeLayout>

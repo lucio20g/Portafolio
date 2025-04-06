@@ -1,0 +1,9 @@
+Informe(Normas APA 7):
+	-Testeos, algoritmos e interacciones
+	-Planificación y organización
+	-Herramientas utilizadas, ventajas y desventajas
+	-Alternativas posibles
+	-Errores y soluciones
+	-Componentes y requisitos computacionales
+	-Criterios de calidad de nuestro software
+	-Bibliografía, criterios de selección

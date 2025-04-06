@@ -1,0 +1,7 @@
+Procedimiento de paciente de urgencia
+
+1) Llega el paciente, se descarga desde la ambulancia y el responsable (no sabemos quien o que puesto) activa desde el mando de activación el codigo azul.
+2) Se registra la alarma en el sistema desde el modulo de enlace wifi (el icono de la nube hacia la pequeña habitación.
+3) En los modulos sonoros suena una alarma, en las pantallas se indica el número de quirofano ()
+4)se muestra el número de quirofano por la pantalla de visualización que esta junto al modulo sonoro.
+5)en caso de que no llegue la señal desde el mando de activación hasta los modulos sonoros y las pantallas, se usa el modulo de enlace wifi para que expanda la señal.
