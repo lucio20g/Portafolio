@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Login</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="form-content">
+            <h1 id="title">Login</h1>
+            <form>
+                <div class="input-group">
+                    <div class="input-box">
+                        <input type="text" required>
+                        <span>Nombre</span>
+                    </div>
+                    <br>
+                    <div class="input-box">
+                        <input type="text" list="cargo" required>
+                        <span>Cargo</span>
+                        <datalist id="cargo">
+                            <option value="Jefe"></option>
+                            <option value="Lider"></option>
+                            <option value="Supervisor"></option>
+                            <option value="Encuestador"></option>
+                        </datalist>
+                    </div>
+                    <br>
+                    <div class="input-box">
+                        <input type="password" required id="password">
+                        <span>Contraseña</span>
+                        <div id="toggle" onclick="showHide();"></div>
+                    </div>
+                    <br>
+                </div>
+                <div class="btn-field">
+                    <button id="singUp" type="button">Ingresar</button>
+                </div>
+
+            </form>
+        
+        </div>
+
+
+    </div>
+    <script src="java.js"></script>
+                    
+</body>
+</html>
