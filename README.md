@@ -1,6 +1,6 @@
 # ¡Hola, soy Lucio! 👋
 
-## 🌐 Desarrollador de software | Técnico en Programación
+## 🌐 Desarrollador | Técnico en Programación
 
 Apasionado por la programación, la resolución de problemas y la creación de soluciones tecnológicas.  
 Aquí encontrarás algunos de mis proyectos personales y profesionales.
@@ -18,5 +18,4 @@ Aquí encontrarás algunos de mis proyectos personales y profesionales.
 
 ## 📬 Contacto
 
-- LinkedIn: [Tu LinkedIn](https://linkedin.com/in/tuusuario)
-- Correo: tuemail@example.com
+- Correo: luciogauna2468@gmail.com
